@@ -23,6 +23,16 @@ main {
   text-transform: uppercase;
 }
 
+.destination--main {
+  display: flex;
+}
 
+.main__information {
+  padding: 0 3rem;
+}
+
+.navigation--planets {
+  margin: 0;
+  background: transparent;
+}
 /*main page */
-

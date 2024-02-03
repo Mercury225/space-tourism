@@ -59,8 +59,35 @@
         <picture>
           <img id="planet" src="" alt="" />
         </picture>
-        <div class="main__information"></div>
+        <div class="main__information">
+          <nav>
+            <ul class="navigation--planets">
+              <li id="moon">Moon</li>
+              <li id="mars">Mars</li>
+              <li id="europa">Europa</li>
+              <li id="titan">Titan</li>
+            </ul>
+          </nav>
+          <h2 id="planet--title"></h2>
+          <p id="planet--description"></p>
+          <div class="description__figures">
+            <div class="planet--distance">
+              <h4>Avg. Distance</h4>
+              <h3 id="planet--distance"></h3>
+            </div>
+            <div class="planet--travel-time">
+              <h4>Est. Travel Time</h4>
+              <h3 id="planet--travel-time"></h3>
+            </div>
+          </div>
+        </div>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21">
+        <g fill="#D0D6F9" fill-rule="evenodd">
+          <path d="M2.575.954l16.97 16.97-2.12 2.122L.455 3.076z" />
+          <path d="M.454 17.925L17.424.955l2.122 2.12-16.97 16.97z" />
+        </g>
+      </svg>
     </main>
     <script type="module" src="./destination_page.js"></script>
   </body>
