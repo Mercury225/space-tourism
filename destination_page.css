@@ -1,7 +1,6 @@
 body {
-  background: url(./crew/assets/background-crew-desktop.jpg);
+  background: url(./destination/assets/background-destination-desktop.jpg);
 }
-
 main {
   color: white;
   font-family: "Roboto Condensed", sans-serif;
@@ -23,3 +22,7 @@ main {
   padding-right: 1rem;
   text-transform: uppercase;
 }
+
+
+/*main page */
+
