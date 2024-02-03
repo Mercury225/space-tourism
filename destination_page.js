@@ -30,12 +30,7 @@ document.getElementById("moon").addEventListener("click", () => {
         json.destinations[0].travel;
     });
 });
-/*     <ul class="navigation--planets">
-              <li id="moon">Moon</li>
-              <li id="mars">Mars</li>
-              <li id="europa">Europa</li>
-              <li id="titan">Titan</li>
-            </ul> */
+
 // mars
 document.getElementById("mars").addEventListener("click", () => {
   fetch("./data.json")
