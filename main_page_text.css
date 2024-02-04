@@ -1,3 +1,7 @@
+body {
+  background: url(./home/assets/background-home-desktop.jpg);
+  background-size: cover;
+}
 /* text */
 .text-parent {
   color: rgba(217, 214, 214, 0.721);
@@ -30,13 +34,14 @@
   line-height: 1.8rem;
 }
 
-#hamburger {
-  display: none;
-}
 @media only screen and (max-width: 1275px) {
   html,
   body {
     font-size: 15px;
+  }
+  body {
+    background: url(./home/assets/background-home-tablet.jpg);
+    background-size: cover;
   }
   nav ul {
     background: #131522;
@@ -64,21 +69,29 @@
 }
 
 .background {
+  display: block;
   position: absolute;
   right: 0;
-  height: 0.1rem;
-  width: 0.1rem;
+  top: 50vh;
+  transform: translateY(-50%);
+  height: 0.01vh;
+  width: 0.01vw;
   background: #131522;
-  transform: scale(1000);
+  transition: all 1s ease-out;
   z-index: 1;
 }
-#slotter {
+#hamburger {
   display: none;
 }
-@media only screen and (max-width: 450px) {
+
+@media only screen and (max-width: 700px) {
   html,
   body {
     font-size: 12px;
+  }
+  body {
+    background: url(./home/assets/background-home-mobile.jpg);
+    background-size: cover;
   }
   nav {
     justify-content: space-between;
@@ -98,10 +111,11 @@
     position: relative;
     left: 0;
   }
-  #hamburger {
+  #hamburger,
+  #close {
     width: 2.5rem;
     height: 2.5rem;
-
+    z-index: 2;
     display: inline-block;
   }
   main {
@@ -110,6 +124,7 @@
   #slotter {
     position: absolute;
     z-index: 2;
+    flex-direction: column;
   }
 
   #slotter li a {
