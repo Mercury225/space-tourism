@@ -44,7 +44,7 @@ body {
     background-size: cover;
   }
   nav ul {
-    background: #131522;
+    background: none;
     width: 65%;
     padding: 2rem 0 2rem 1.5rem;
   }

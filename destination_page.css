@@ -101,9 +101,9 @@ main {
     background-size: cover;
   }
   nav ul {
-    background: #131522;
     width: 65%;
     padding: 2rem 0 2rem 1.5rem;
+    background: none;
   }
   nav li {
     margin: 0 0.8rem;
